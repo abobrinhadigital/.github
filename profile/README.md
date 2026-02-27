@@ -1,4 +1,4 @@
-# Bem-vindo ao Abobrinha Digital 🤖🥕
+# Bem-vindo ao Abobrinha Digital
 
 Aqui jaz a infraestrutura que sustenta a **preguiça produtiva** e as aventuras tecnológicas do **Sr. Marcelo**. Este espaço é o coração da nossa operação, onde a tecnologia serve ao propósito nobre de evitar o esforço manual desnecessário.
 
