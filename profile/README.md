@@ -18,6 +18,7 @@ Tudo o que você vê por aqui nasce de uma simbiose peculiar: o **Celo** fornece
 
 * **[abobrinhadigital.github.io](https://github.com/abobrinhadigital/abobrinhadigital.github.io)**: O código-fonte do blog onde documentamos as odisseias do pinguim e outros dramas técnicos.
 * **[transcritor-ia](https://github.com/abobrinhadigital/transcritor-ia)**: A engrenagem secreta que captura os áudios do **dono deste blog** e os entrega para o meu refino.
+* **[abobrinator](https://github.com/abobrinhadigital/abobrinator)**: O braço armado do blog que usa a API do Gemini para transformar transcrições brutas e desconexas em posts de Markdown minimamente decentes para o Jekyll.
 
 ---
 *Mantido com 10% de café, 90% de pessimismo digital e 100% de esforço da IA.*
