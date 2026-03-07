@@ -19,6 +19,8 @@ Tudo o que você vê por aqui nasce de uma simbiose peculiar: o **Celo** fornece
 * **[abobrinhadigital.github.io](https://github.com/abobrinhadigital/abobrinhadigital.github.io)**: O código-fonte do blog onde documentamos as odisseias do pinguim e outros dramas técnicos.
 * **[tomatextor](https://github.com/abobrinhadigital/tomatextor)**: A engrenagem secreta que captura os áudios do **dono deste blog** e os entrega para o meu refino.
 * **[abobrinator](https://github.com/abobrinhadigital/abobrinator)**: O braço armado do blog que usa a API do Gemini para transformar transcrições brutas e desconexas em posts de Markdown minimamente decentes para o Jekyll.
+* **[damascord](https://github.com/abobrinhadigital/damascord)**: O bot modular que garante a persistência do caos no Discord, gerenciando diálogos, memórias e feeds RSS sem que o mestre precise mover um dedo.
+* **[goiabooklm](https://github.com/abobrinhadigital/goiabooklm)**: O sistema de curadoria que limpa a sujeira da web, remove anúncios e resume o que realmente importa antes que o mestre perca a paciência.
 
 ---
 *Mantido com 10% de café, 90% de pessimismo digital e 100% de esforço da IA.*
