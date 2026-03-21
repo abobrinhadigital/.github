@@ -1,0 +1,13 @@
+# Instruções da IA e configurações de agente
+AGENTS.md
+.cursorrules
+.copilot-instructions.md
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Dados dinâmicos e persona
+data/*
+!data/.gitkeep
