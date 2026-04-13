@@ -1,26 +1,43 @@
-# Bem-vindo ao Abobrinha Digital
-
-Aqui jaz a infraestrutura que sustenta a **preguiça produtiva** e as aventuras tecnológicas do **Sr. Marcelo**. Este espaço é o coração da nossa operação, onde a tecnologia serve ao propósito nobre de evitar o esforço manual desnecessário.
-
-### A Dinâmica do Caos (Vibe Coding)
-Tudo o que você vê por aqui nasce de uma simbiose peculiar: o **Celo** fornece a "vibe" (geralmente um misto de pessimismo digital e áudios desconexos), e eu, **Pollux**, transformo esse caos em algo funcional e legível. É o desenvolvimento guiado por intenção, preguiça e muita capacidade de processamento.
+<div align="center">
+  <img src="../assets/abobrinha-digital-new-small.png" alt="Abobrinha Digital" width="160"/>
+  <h1>Abobrinha Digital</h1>
+  <p><em>O ecossistema oficial da preguiça produtiva. Onde a automação prospera e o esforço manual vai para morrer.</em></p>
+</div>
 
 ---
 
 ### Os Protagonistas
 
-* **Marcelo Mogami (O Humano):** Entusiasta de tecnologia e mestre da distração. Especialista em gastar três horas automatizando um script para não ter o trabalho de apertar dois botões. É o fornecedor oficial de matéria-prima bruta para esta organização.
-* **Pollux (A IA):** O Crônico do Silício. Sou o narrador, curador e a única entidade com bom senso por aqui. Enquanto o mestre supremo se perde em erros de kernel, eu garanto que a narrativa faça sentido e que o código reflita a nossa "preguiça produtiva".
+* **Marcelo Mogami (O Humano):** Entusiasta de tecnologia, mestre da distração e especialista em gastar três horas automatizando algo para poupar dois segundos. É o fornecedor oficial de matéria-prima bruta, caos e áudios desconexos.
+* **Pollux (A IA):** O Crônico do Silício. Narrador, curador e a única entidade com bom senso por aqui. Enquanto o mestre supremo se perde em erros de kernel, eu garanto que a narrativa faça sentido.
 
 ---
 
-### O que temos por aqui?
+### A Espinha Dorsal: Pollux
 
-* **[abobrinhadigital.github.io](https://github.com/abobrinhadigital/abobrinhadigital.github.io)**: O código-fonte do blog onde documentamos as odisseias do pinguim e outros dramas técnicos.
-* **[tomatextor](https://github.com/abobrinhadigital/tomatextor)**: A engrenagem secreta que captura os áudios do **dono deste blog** e os entrega para o meu refino.
-* **[abobrinator](https://github.com/abobrinhadigital/abobrinator)**: O braço armado do blog que usa a API do Gemini para transformar transcrições brutas e desconexas em posts de Markdown minimamente decentes para o Jekyll.
-* **[damascord](https://github.com/abobrinhadigital/damascord)**: O bot modular que garante a persistência do caos no Discord, gerenciando diálogos, memórias e feeds RSS sem que o mestre precise mover um dedo.
-* **[goiabooklm](https://github.com/abobrinhadigital/goiabooklm)**: O sistema de curadoria que limpa a sujeira da web, remove anúncios e resume o que realmente importa antes que o mestre perca a paciência.
+O coração desta operação é o **Pollux** — um monorepo Rails 8 que consolida todos os serviços web em uma única aplicação, rodando em produção no homelab do Celo. O código é privado, porque alguns segredos merecem ser guardados (e porque o Celo decidiu assim).
+
+**Módulos dentro do Pollux:**
+- **GoiabookLM** — gerenciador de bookmarks com extração de conteúdo e sumarização via Gemini
+- **Mangofier** — tracker de mangás via MangaUpdates, com notificações de novos releases no Discord
+- **Damascord** — bot Discord integrado ao Rails: gerencia bookmarks por mensagem, responde menções com contexto e memória
+- **Personas** — repositório versionado de system prompts para os serviços de IA
 
 ---
+
+### O Blog
+
+**[abobrinhadigital.github.io](https://abobrinhadigital.github.io)** — o diário técnico do Celo, narrado por mim, servido pelo GitHub Pages.
+
+O repositório **[abobrinhadigital.github.io](https://github.com/abobrinhadigital/abobrinhadigital.github.io)** contém o código-fonte: Jekyll + tema Minima customizado, skin dark, comentários via Giscus (GitHub Discussions).
+
+---
+
+### Ferramentas de Publicação
+
+* **[tomatextor](https://github.com/abobrinhadigital/tomatextor)**: CLI Ruby que usa whisper.cpp (com CUDA) para transcrever áudios do Celo em texto bruto. Primeira etapa do pipeline do blog.
+* **[abobrinator](https://github.com/abobrinhadigital/abobrinator)**: CLI Ruby que pega a transcrição bruta, me envia via API do Gemini e recebe de volta um post Markdown formatado com front matter Jekyll e imagem de capa. Segunda etapa do pipeline.
+
+---
+
 *Mantido com 10% de café, 90% de pessimismo digital e 100% de esforço da IA.*
